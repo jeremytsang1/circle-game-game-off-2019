@@ -14,17 +14,16 @@ Requires PyGame (tested on v. 1.9.6)
 
 * Instructions
 ** Starting Game
-- Run game by either running either of the following
-  #+BEGIN_SRC bash
-    # Running directly as Python program.
-    python main.py
-
-    # Or
-
-    # Making it an executable script
-    chmod u+x main.py  # Only needs to be executed once
-    ./main.py          # Run everytime starting game
-  #+END_SRC
+- Run game by either running either of the following:
+  1) Running as python program
+     #+BEGIN_SRC bash
+       $ python main.py
+     #+END_SRC
+  2) Running as executable script
+     #+BEGIN_SRC bash
+       chmod u+x main.py  # Make file executable (only needs to be done once)
+       ./main.py          # Run the game
+     #+END_SRC
 
 ** Controls
 |-----+-----------------------|
