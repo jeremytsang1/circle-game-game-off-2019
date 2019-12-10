@@ -21,8 +21,8 @@ Requires PyGame (tested on v. 1.9.6)
      #+END_SRC
   2) Running as executable script
      #+BEGIN_SRC bash
-       chmod u+x main.py  # Make file executable (only needs to be done once)
-       ./main.py          # Run the game
+       $ chmod u+x main.py  # Make file executable (only needs to be done once)
+       $ ./main.py          # Run the game
      #+END_SRC
 
 ** Controls
