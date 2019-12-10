@@ -10,7 +10,13 @@
 Try to grab the green balls before being attacked by the red balls.
 
 * Requirements
-Requires PyGame (tested on v. 1.9.6)
+- Requires:
+  |----------+----------------|
+  | Name     | Version Tested |
+  |----------+----------------|
+  | Python 3 |          3.6.9 |
+  | PyGame   |          1.9.6 |
+  |----------+----------------|
 
 * Instructions
 ** Starting Game
