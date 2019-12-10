@@ -8,11 +8,12 @@ import circlegame.characters.player
 
 colors = {"BLACK": (0, 0, 0),
           "WHITE": (255, 255, 255),
+          "GRAY": (132, 132, 132),
           "RED": (255, 0, 0),
           "GREEN": (0, 255, 0),
           "BLUE": (0, 0, 255),
           "HOTPINK": (255, 105, 180),
-          "YELLOW": (255,255,204)}
+          "YELLOW": (255, 255, 0)}
 
 TEXT_SIZE = 30
 
@@ -185,7 +186,7 @@ class Game:
     def display_orbits(self):
         for radius in self.radius_list:
             for angle in range(360):
-                pygame.draw.circle(self.screen, colors['WHITE'], self.converter.polar_to_pixel((radius, angle)), 1)
+                pygame.draw.circle(self.screen, colors['GRAY'], self.converter.polar_to_pixel((radius, angle)), 1)
 
     def display_characters(self):
         characters_to_move = self.goals + self.killers
