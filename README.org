@@ -35,6 +35,6 @@ chmod u+x main.py  # Only needs to be executed once
 
 * Screenshot or Video
 - screenshot
-  - [[file:img/screenshot_example_game.png][screenshot of game]]
+  - [[file:img/screenshot_example_game.png]]
 
-- [example gameplay video](https://youtu.be/FtRzxSxA0O0)
+- [[https://youtu.be/FtRzxSxA0O0][example gameplay video]]
