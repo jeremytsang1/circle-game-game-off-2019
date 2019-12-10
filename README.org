@@ -14,15 +14,18 @@ Requires PyGame (tested on v. 1.9.6)
 
 * Instructions
 ** Starting Game
-Run game by either running
-```
-python main.py
-```
-or 
-```
-chmod u+x main.py  # Only needs to be executed once
-./main.py          # Run everytime starting game
-```
+- Run game by either running either of the following
+  #+BEGIN_SRC bash
+    # Running directly as Python program.
+    python main.py
+
+    # Or
+
+    # Making it an executable script
+    chmod u+x main.py  # Only needs to be executed once
+    ./main.py          # Run everytime starting game
+  #+END_SRC
+
 ** Controls
 |-----+-----------------------|
 | KEY | DESCRIPTION           |
